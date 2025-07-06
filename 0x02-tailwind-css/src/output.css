@@ -1,0 +1,38 @@
+/*! tailwindcss v3.x.x | MIT License | https://tailwindcss.com */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+*, ::before, ::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+html {
+  line-height: 1.5;
+  font-family: ui-sans-serif, system-ui, -apple-system;
+  ...
+}
+
+/* Utility classes */
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+.text-blue-600 {
+  color: #2563eb;
+}
+.p-10 {
+  padding: 2.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.font-bold {
+  font-weight: 700;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
