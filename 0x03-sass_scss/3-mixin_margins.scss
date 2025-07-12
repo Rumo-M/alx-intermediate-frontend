@@ -1,0 +1,14 @@
+// 3-mixin_margins.scss
+
+// Define a mixin that accepts four optional margin values: top, right, bottom, left
+@mixin set-margins($top: 0, $right: 0, $bottom: 0, $left: 0) {
+  margin-top: $top;
+  margin-right: $right;
+  margin-bottom: $bottom;
+  margin-left: $left;
+}
+
+// Example usage
+.box {
+  @include set-margins(10px, 15px, 10px, 15px);
+}
